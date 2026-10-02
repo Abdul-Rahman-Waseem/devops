@@ -92,3 +92,11 @@ plt.ylim(0.5, 1.0)
 plt.xticks(rotation=0)
 plt.grid(axis="y", alpha=0.3)
 plt.show()
+
+
+// adding a performance table for better understanding about the dataset
+
+""" ## 7. Table"""
+
+print("\nModel Performance:")
+print(results.round(4))
